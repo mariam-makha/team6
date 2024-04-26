@@ -161,17 +161,17 @@ $about_text = "has a more-or-less normal distribution of letters, as opposed to 
 
 
 $header_info = [
-    'phone' => [
+        'phone' => [
         'link' => '#', // or your desired phone link
         'icon' => 'fa fa-phone',
         'text' => 'Call : +01 123455678990'
     ],
-    'email' => [
+        'email' => [
         'link' => 'mailto:demo@gmail.com', // actual mailto link
         'icon' => 'fa fa-envelope',
         'text' => 'Email : demo@gmail.com'
     ],
-    'location' => [
+        'location' => [
         'link' => '#', // or your location link
         'icon' => 'fa fa-map-marker',
         'text' => 'Location'
