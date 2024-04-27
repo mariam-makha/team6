@@ -136,12 +136,12 @@ $social_media_links = [
 ];
 
 $info_links = [
-    'Home' => 'index.html',
-    'About' => 'about.html',
-    'Treatment' => 'treatment.html',
-    'Doctors' => 'doctor.html',
-    'Testimonial' => 'testimonial.html',
-    'Contact us' => 'contact.html'
+    'Home' => 'index.php',
+    'About' => 'about.php',
+    'Treatment' => 'treatment.php',
+    'Doctors' => 'doctor.php',
+    'Testimonial' => 'testimonial.php',
+    'Contact us' => 'contact.php'
 ];
 
 $latest_posts = [
