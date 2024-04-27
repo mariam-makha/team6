@@ -8,7 +8,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Appointment Confirmation</h1>
+        <h1>Confirmation</h1>
         <p><?php 
             if (isset($_GET['message'])) {
                 echo htmlspecialchars(urldecode($_GET['message']));

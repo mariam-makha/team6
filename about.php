@@ -1,5 +1,6 @@
 <?php
 include 'functions.php'; 
+
 generateHtmlHeader();
 generateHeader($header_info, $nav_links, $logo_url);
 generateAboutSection($about_image, $about_text);
