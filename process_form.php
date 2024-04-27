@@ -1,14 +1,29 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-    $patientName = isset($_POST['patientName']) ? $_POST['patientName'] : 'No name provided';
-    $doctorName = isset($_POST['doctor']) ? $_POST['doctor'] : 'No doctor selected';
-    $date = isset($_POST['date']) ? $_POST['date'] : 'No date selected';
+    if (isset($_POST['patientName'])) {
+        $patientName = $_POST['patientName'];
+        $doctorName = $_POST['doctor'] ?? 'No doctor selected';
+        $date = $_POST['date'] ?? 'No date selected';
 
-    if (!empty($patientName) && !empty($doctorName) && !empty($date)) {
-        $message = urlencode("Thank you, $patientName. Your appointment with Dr. $doctorName on $date has been received.");
+        if (!empty($patientName) && !empty($doctorName) && !empty($date)) {
+            $message = "Thank you, $patientName. Your appointment with Dr. $doctorName on $date has been received.";
+        } else {
+            $message = "Failed to book appointment. Please make sure all required fields are filled out correctly.";
+        }
+    } elseif (isset($_POST['fullName'])) {
+        $fullName = $_POST['fullName'];
+        $feedback = $_POST['feedback'] ?? '';
+
+        if (!empty($fullName) && !empty($feedback)) {
+            $message = "Thank you for contacting us, $fullName. Your message has been received.";
+        } else {
+            $message = "Please make sure all required fields are filled out correctly.";
+        }
     } else {
-        $message = urlencode("Failed to book appointment. Please make sure all required fields are filled out correctly.");
+        $message = "Invalid form submission.";
     }
+
+    $message = urlencode($message);
     header("Location: confirmation.php?message=$message");
     exit;
 }

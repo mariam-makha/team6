@@ -382,7 +382,7 @@ function generateContactSection()
                 <div class="row">
                     <div class="col-md-7">
                         <div class="form_container">
-                            <form action="process_form2.php" method="post">
+                            <form action="process_form.php" method="post">
                             <input type="hidden" name="formType" value="contact">
                                 <div><input type="text" name="fullName" placeholder="Full Name" required /></div>
                                 <div><input type="email" name="email" placeholder="Email" /></div>
@@ -401,7 +401,6 @@ function generateContactSection()
             </div>
         </section>';
 }
-
 function generateInfoSection($info_contacts, $social_media_links, $info_links, $latest_posts, $news_items)
 {
     echo '<section class="info_section">
@@ -502,5 +501,4 @@ function generateFooter()
         </html>
         ';
 }
-
 ?>
