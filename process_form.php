@@ -24,7 +24,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 
     $message = urlencode($message);
-    header("Location: confirmation.php?message=$message");
+    header("Location:confirmation.php?message=$message");
     exit;
 }
 ?>
