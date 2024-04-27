@@ -23,4 +23,5 @@ generateContactSection();
 generateInfoSection($info_contacts, $social_media_links, $info_links, $latest_posts, $news_items);
 
 generateFooter();
+
 ?>

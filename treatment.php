@@ -2,7 +2,7 @@
 include 'functions.php'; 
 generateHtmlHeader();
 generateHeader($header_info, $nav_links, $logo_url);
-generateBookSection($doctors_info, $treatments);
+generateTreatmentSection($treatments);
 generateInfoSection($info_contacts, $social_media_links, $info_links, $latest_posts, $news_items);
 generateFooter();
 ?>
