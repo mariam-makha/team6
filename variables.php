@@ -11,7 +11,7 @@ $slider_content = [
     ],
     [
         'active' => true,
-        'image' => 'images/slider-img.jpg',
+        'image' => 'images/slider-img1.jpg',
         'title' => 'Innovative',
         'span' => 'Research',
         'text' => 'Join our journey of medical excellence and innovative research led by worldclass specialists.',
@@ -20,7 +20,7 @@ $slider_content = [
     ],
     [
         'active' => true,
-        'image' => 'images/slider-img.jpg',
+        'image' => 'images/slider-img2.jpg',
         'title' => 'Your Health',
         'span' => 'Our Mission',
         'text' => 'Ensuring your well-being with comprehensive medical services tailored to your needs.',
