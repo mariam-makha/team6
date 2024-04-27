@@ -2,7 +2,6 @@
 include 'functions.php'; 
 include 'variables.php';
 
-
 generateHtmlHeader();
 
 generateHeader($header_info, $nav_links, $logo_url);
