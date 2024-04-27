@@ -383,7 +383,7 @@ function generateContactSection()
                                 <div><input type="text" name="fullName" placeholder="Full Name" required /></div>
                                 <div><input type="email" name="email" placeholder="Email" /></div>
                                 <div><input type="text" name="phoneNumber" placeholder="Phone Number" /></div>
-                                <div><input type="text" name="feedback" class="message-box" placeholder="feedback" required /></div>
+                                <div><input type="text" name="feedback" class="message-box" placeholder="Write your concern" required /></div>
                                 <div class="btn_box"><button>SEND</button></div>
                             </form>
                         </div>
