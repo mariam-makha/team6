@@ -167,17 +167,17 @@ $about_text = "Our hospital is dedicated to providing top-tier medical care with
 
 $header_info = [
         'phone' => [
-        'link' => '#', // or your desired phone link
+        'link' => '#',
         'icon' => 'fa fa-phone',
         'text' => 'Call : +01 123455678990'
     ],
         'email' => [
-        'link' => 'mailto:demo@gmail.com', // actual mailto link
+        'link' => 'mailto:demo@gmail.com', 
         'icon' => 'fa fa-envelope',
         'text' => 'Email : demo@gmail.com'
     ],
         'location' => [
-        'link' => '#', // or your location link
+        'link' => '#',
         'icon' => 'fa fa-map-marker',
         'text' => 'Location'
     ]
